@@ -16,7 +16,7 @@ export default function SponsorBlock({ href, src, className }) {
 			}}
 			whileTap={{ scale: 0.8 }}
 		>
-			<Link to={href} className="w-full h-full">
+			<Link to={href} className="w-full h-full" aria-label={"Visit our supporter at " + href}>
 				<img src={src} alt="" className="object-cover aspect-square" />
 			</Link>
 		</Block>

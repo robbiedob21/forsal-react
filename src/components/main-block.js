@@ -17,7 +17,7 @@ function MainBlock({ className, href, src, linkTitle }) {
 			}}
 			whileTap={{ scale: 0.8 }}
 		>
-			<Link to={href}>
+			<Link to={href} aria-label={"Go to " + linkTitle + " page"}>
 				<img
 					draggable="false"
 					src={src}

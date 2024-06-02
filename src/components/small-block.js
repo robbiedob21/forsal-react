@@ -17,7 +17,7 @@ function SmallBlock({ className, href, src, children }) {
 			}}
 			whileTap={{ scale: 0.8 }}
 		>
-			<Link to={href} className="grid items-center justify-center w-full h-full">
+			<Link to={href} className="grid items-center justify-center w-full h-full" aria-label={"Go to " + href}>
 				{children ? (
 					children
 				) : (
