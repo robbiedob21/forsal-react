@@ -2,7 +2,7 @@ import React from "react";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
 
-function Block({ className, ...rest }) {
+export default function Block({ className, ...rest }) {
 	return (
 		<motion.div
 			variants={{
@@ -29,5 +29,3 @@ function Block({ className, ...rest }) {
 		/>
 	);
 };
-
-export default Block;
