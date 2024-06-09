@@ -14,63 +14,63 @@ import event from "../resources/images/corey-event.webp";
 import Sponsors from "../components/sponsors";
 
 export default function HomePage() {
-	return (
-		<>
-			<MainBlock
-				src={coreyAndMike}
-				href="/mission"
-				className=""
-				linkTitle="Our Mission"
-			/>
-			<SmallBlock src={logo} href="#" className="bg-black" />
-			<SmallBlock
-				src={iAmHope}
-				href="https://www.iamhope.org.nz/"
-				className="bg-white"
-			/>
-			<SmallBlock>
-				<div className="text-center">
-					<p className="text-4xl font-bold">$115k</p>
-					<p className="text-zinc-400 text-xl">Raised</p>
-				</div>
-			</SmallBlock>
-			<MainBlock
-				src={sally}
-				href="/story"
-				className="row-span-3"
-				linkTitle="Our Story"
-			/>
-			<TitleBlock />
-			<MainBlock
-				src={merch}
-				href="https://purposeperformancewear.com/collections/i-am-hope"
-				className="lg:row-span-3 md:col-span-6 lg:col-span-4"
-				linkTitle="Merch"
-			/>
-			<MainBlock
-				src={event}
-				href="/events"
-				className="md:col-span-6"
-				linkTitle="Events"
-			/>
-			<SmallBlock
-				src={gumbootFriday}
-				href="https://www.gumbootfriday.org.nz/"
-				className="bg-white"
-			/>
-			<SmallBlock
-				href="https://www.strava.com/clubs/1209335"
-				className="text-6xl bg-orange-500 sm:col-span-6 md:col-span-3 lg:col-span-2"
-			>
-				<SiStrava />
-			</SmallBlock>
-			<SmallBlock
-				href="https://www.instagram.com/runningforsal/"
-				className="text-6xl bg-gradient-to-br from-purple-800 to-orange-400 sm:col-span-6 md:col-span-3 lg:col-span-2"
-			>
-				<SiInstagram />
-			</SmallBlock>
-			<Sponsors />
-		</>
-	);
+  return (
+    <>
+      <MainBlock
+        src={coreyAndMike}
+        href="/mission"
+        className=""
+        linkTitle="Our Mission"
+      />
+      <SmallBlock src={logo} href="#" className="bg-black" />
+      <SmallBlock
+        src={iAmHope}
+        href="https://www.iamhope.org.nz/"
+        className="bg-white"
+      />
+      <SmallBlock>
+        <div className="text-center">
+          <p className="text-4xl font-bold">$115k</p>
+          <p className="text-xl text-zinc-400">Raised</p>
+        </div>
+      </SmallBlock>
+      <MainBlock
+        src={sally}
+        href="/story"
+        className="row-span-3"
+        linkTitle="Our Story"
+      />
+      <TitleBlock />
+      <MainBlock
+        src={merch}
+        href="https://purposeperformancewear.com/collections/i-am-hope"
+        className="md:col-span-6 lg:col-span-4 lg:row-span-3"
+        linkTitle="Merch"
+      />
+      <MainBlock
+        src={event}
+        href="/events"
+        className="md:col-span-6"
+        linkTitle="Events"
+      />
+      <SmallBlock
+        src={gumbootFriday}
+        href="https://www.gumbootfriday.org.nz/"
+        className="bg-white"
+      />
+      <SmallBlock
+        href="https://www.strava.com/clubs/1209335"
+        className="bg-orange-500 text-6xl sm:col-span-6 md:col-span-3 lg:col-span-2"
+      >
+        <SiStrava />
+      </SmallBlock>
+      <SmallBlock
+        href="https://www.instagram.com/runningforsal/"
+        className="bg-gradient-to-br from-purple-800 to-orange-400 text-6xl sm:col-span-6 md:col-span-3 lg:col-span-2"
+      >
+        <SiInstagram />
+      </SmallBlock>
+      <Sponsors />
+    </>
+  );
 }
